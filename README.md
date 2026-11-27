@@ -59,7 +59,7 @@ No Android Studio needed. `build.sh` drives `aapt2`, `javac`, `d8` and `apksigne
 export BT=/path/to/build-tools/30.0.3
 export PLATFORM=/path/to/platforms/android-28/android.jar
 export KEYSTORE=/path/to/keystore.jks KS_PASS=yourpassword
-./build.sh
+bash build.sh
 ```
 
 ## ✅ المتطلبات | Requirements
